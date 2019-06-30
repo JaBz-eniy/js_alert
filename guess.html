@@ -1,0 +1,35 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+var count = 0
+
+var question = prompt("Один брат — ест и голодает, а другой — идёт и пропадает, что это?")
+	if (question == "огонь и дым"){
+		alert("вы угадали, продолжаем!")
+		count++
+}else{
+		alert("вы не угадали, продолжаем!")
+}
+
+var question2 = prompt("Я — вода и по воде плаваю. Кто я?")
+	if(question2 == "льдина"){
+		alert("вы угадали, продолжаем!")
+		count++
+	}else{
+		alert("вы не угадали, продолжаем!")
+	}
+
+var question3 = prompt("Все меня топчут, а я — всё лучше.")
+	if (question3 == "тропинка") {	
+		alert("вы угадали, продолжаем!")
+		count++
+	}else{
+		alert("вы не угадали, продолжаем!")
+	}
+if (count == 3){
+	alert("поздравляю, вы решили все загадки!")
+}else{
+	alert("попробуйте снова, вы решили не все! решено: " + count)
+}
+
+
+</script>
